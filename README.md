@@ -17,6 +17,7 @@ g++ lru_cache.cpp -o lru_cache
 
 ## Example
 Enter maximum cache capacity: 3
+
 SET A 10  →  [Head] -> (A: 10) -> [Tail]
 
 SET B 20  →  [Head] -> (B: 20) <-> (A: 10) -> [Tail]
